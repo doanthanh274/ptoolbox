@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RDCMan programVersion="2.90" schemaVersion="3">
+  <file>
+    <credentialsProfiles>
+      <credentialsProfile inherit="None">
+        <profileName scope="Local">thanh</profileName>
+        <userName>thanh</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEF3zNV535kSvcCJW8T2XqQAAAAACAAAAAAAQZgAAAAEAACAAAAAneT1LRwLSepzhfKIti/0QJYpr7zNkHfDTm4kO+0t5jQAAAAAOgAAAAAIAACAAAACv3pK8qD5fpoR8W2P1ysvz7Yo8G7cpCW5JM/juBcSOACAAAACKA1KN6+CzJbLsVcrhiLHI7/NTPiopizqaqf6c9kjNTUAAAABZU86vqDW35CzZvBNDPlTSFVTXJJjTpH/0QoY2fEqEnorbZSdPLmlWhFu1k3lfsjNcAdt+a8hUFXM1UYImZqE+</password>
+        <domain />
+      </credentialsProfile>
+      <credentialsProfile inherit="None">
+        <profileName scope="Local">w10admin</profileName>
+        <userName>admin</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEF3zNV535kSvcCJW8T2XqQAAAAACAAAAAAAQZgAAAAEAACAAAACXlyGkdv+15MPOQWeqEQktTQ1SP0LoBCQuZ2NJywUuZAAAAAAOgAAAAAIAACAAAACa1LDJBBbmpj43CTXdkyzj15ZfQ62tQOr11z2EewdnqhAAAABxXuKY1YOjyfdB1IXdQv4dQAAAAMJlUaO5b3kTRjIHVi8CidRpWojaw7xmKBYU13qqI8+tfMdkYnP1FJqAQ2CIHDpuKojWVmm9AL2ZKQchkForg4o=</password>
+        <domain>A514</domain>
+      </credentialsProfile>
+    </credentialsProfiles>
+    <properties>
+      <expanded>True</expanded>
+      <name>fcqlab</name>
+    </properties>
+    <server>
+      <properties>
+        <displayName>[45] win10</displayName>
+        <name>192.168.30.49</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="File">thanh</profileName>
+      </logonCredentials>
+      <remoteDesktop inherit="None">
+        <size>1440 x 900</size>
+        <sameSizeAsClientArea>False</sameSizeAsClientArea>
+        <fullScreen>False</fullScreen>
+        <colorDepth>24</colorDepth>
+      </remoteDesktop>
+      <displaySettings inherit="None">
+        <thumbnailScale>1</thumbnailScale>
+        <smartSizeDockedWindows>Scale</smartSizeDockedWindows>
+        <smartSizeUndockedWindows>Scale</smartSizeUndockedWindows>
+      </displaySettings>
+    </server>
+    <server>
+      <properties>
+        <displayName>[48] win7</displayName>
+        <name>192.168.30.48</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="Local">Custom</profileName>
+        <userName>w7admin</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEF3zNV535kSvcCJW8T2XqQAAAAACAAAAAAAQZgAAAAEAACAAAADO3NPmUBoqIs1K/T9dZfRYXArCY/og6Dz6RULKXw6LDQAAAAAOgAAAAAIAACAAAABC5E27svnBTAbwllfHOrGtZiDmrOHGHICiKTkBVdUnsyAAAABTfj6U5w0faIKxGCQcCJRg+QMN4D6DXuuaf3Wx1hxBGUAAAADCz1hl5VMOvCISU9GMN7kp6GL2cSAxoQrOciPZFPkknBzloX/RG4k/B28UQ2+Q1q2HIQqay2/GaRew+17uBiXm</password>
+        <domain>A514</domain>
+      </logonCredentials>
+    </server>
+  </file>
+  <connected />
+  <favorites />
+  <recentlyUsed />
+</RDCMan>
