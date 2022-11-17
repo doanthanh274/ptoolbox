@@ -24,3 +24,4 @@ if [[ $prompt_delprivatekey = 'y' ]]; then
 fi
 
 echo "[+] You can now login using the private key with permission 700"
+sudo systemctl restart sshd
