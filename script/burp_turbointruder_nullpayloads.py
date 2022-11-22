@@ -1,16 +1,13 @@
-# NULL PAYLOAD BURP TURBO INTRUDER
-
-# add %s on request
-# Engine.HTTP2 > Engine.THREADED > Engine.BURP2 > Engine.BURP
+# null payloads turbo intruder
 # - concurrentConnections & requestsPerConnection for threading & speed
 # - goal is to maximize RPS with retries ~ 0
 
 def queueRequests(target, wordlists):
     engine = RequestEngine(endpoint=target.endpoint,
-                           concurrentConnections=100,
+                           concurrentConnections=50,
                            requestsPerConnection=1000,
                            pipeline=False,
-                           engine=Engine.BURP2
+                           engine=engine.HTTP2
                            )
 
     for word in range(1000000):
