@@ -89,6 +89,16 @@
                     "loaded":true,
                     "name":"Scan manual insertion point",
                     "output":"ui"
+                },
+                {
+                    "bapp_serial_version":48,
+                    "bapp_uuid":"9abaa233088242e8be252cd4ff534988",
+                    "errors":"ui",
+                    "extension_file":"bapps\\9abaa233088242e8be252cd4ff534988\\build\\libs\\turbo-intruder-all.jar",
+                    "extension_type":"java",
+                    "loaded":true,
+                    "name":"Turbo Intruder",
+                    "output":"ui"
                 }
             ],
             "java":{
