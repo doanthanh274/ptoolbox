@@ -4,10 +4,10 @@
 
 def queueRequests(target, wordlists):
     engine = RequestEngine(endpoint=target.endpoint,
-                           concurrentConnections=50,
-                           requestsPerConnection=1000,
+                           concurrentConnections=1,
+                           requestsPerConnection=10000,
                            pipeline=False,
-                           engine=engine.HTTP2
+                           engine=Engine.BURP2
                            )
 
     for word in range(1000000):
@@ -18,3 +18,5 @@ def handleResponse(req, interesting):
     # currently available attributes are req.status, req.wordcount, req.length and req.response
     if req.status != 404:
         table.add(req)
+        
+ 

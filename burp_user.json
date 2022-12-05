@@ -61,7 +61,7 @@
                     "output":"ui"
                 },
                 {
-                    "bapp_serial_version":25,
+                    "bapp_serial_version":26,
                     "bapp_uuid":"3123d5b5f25c4128894d97ea1acc4976",
                     "errors":"ui",
                     "extension_file":"bapps\\3123d5b5f25c4128894d97ea1acc4976\\activeScan++.py",
@@ -98,6 +98,16 @@
                     "extension_type":"java",
                     "loaded":true,
                     "name":"Turbo Intruder",
+                    "output":"ui"
+                },
+                {
+                    "bapp_serial_version":21,
+                    "bapp_uuid":"9cff8c55432a45808432e26dbb2b41d8",
+                    "errors":"ui",
+                    "extension_file":"bapps\\9cff8c55432a45808432e26dbb2b41d8\\build\\libs\\backslash-powered-scanner-all.jar",
+                    "extension_type":"java",
+                    "loaded":true,
+                    "name":"Backslash Powered Scanner",
                     "output":"ui"
                 }
             ],
