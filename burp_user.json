@@ -66,7 +66,7 @@
                     "errors":"ui",
                     "extension_file":"bapps\\3123d5b5f25c4128894d97ea1acc4976\\activeScan++.py",
                     "extension_type":"python",
-                    "loaded":true,
+                    "loaded":false,
                     "name":"Active Scan++",
                     "output":"ui"
                 },
@@ -76,7 +76,7 @@
                     "errors":"ui",
                     "extension_file":"bapps\\f9bbac8c4acf4aefa4d7dc92a991af2f\\Autorize.py",
                     "extension_type":"python",
-                    "loaded":true,
+                    "loaded":false,
                     "name":"Autorize",
                     "output":"ui"
                 },
@@ -96,18 +96,18 @@
                     "errors":"ui",
                     "extension_file":"bapps\\9abaa233088242e8be252cd4ff534988\\build\\libs\\turbo-intruder-all.jar",
                     "extension_type":"java",
-                    "loaded":true,
+                    "loaded":false,
                     "name":"Turbo Intruder",
                     "output":"ui"
                 },
                 {
-                    "bapp_serial_version":21,
-                    "bapp_uuid":"9cff8c55432a45808432e26dbb2b41d8",
+                    "bapp_serial_version":5,
+                    "bapp_uuid":"26aaa5ded2f74beea19e2ed8345a93dd",
                     "errors":"ui",
-                    "extension_file":"bapps\\9cff8c55432a45808432e26dbb2b41d8\\build\\libs\\backslash-powered-scanner-all.jar",
+                    "extension_file":"bapps\\26aaa5ded2f74beea19e2ed8345a93dd\\target\\jwt-editor-1.1.0-jar-with-dependencies.jar",
                     "extension_type":"java",
                     "loaded":true,
-                    "name":"Backslash Powered Scanner",
+                    "name":"JWT Editor",
                     "output":"ui"
                 }
             ],
