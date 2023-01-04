@@ -66,7 +66,7 @@
                     "errors":"ui",
                     "extension_file":"bapps\\3123d5b5f25c4128894d97ea1acc4976\\activeScan++.py",
                     "extension_type":"python",
-                    "loaded":false,
+                    "loaded":true,
                     "name":"Active Scan++",
                     "output":"ui"
                 },
@@ -76,7 +76,7 @@
                     "errors":"ui",
                     "extension_file":"bapps\\f9bbac8c4acf4aefa4d7dc92a991af2f\\Autorize.py",
                     "extension_type":"python",
-                    "loaded":false,
+                    "loaded":true,
                     "name":"Autorize",
                     "output":"ui"
                 },
@@ -106,7 +106,7 @@
                     "errors":"ui",
                     "extension_file":"bapps\\26aaa5ded2f74beea19e2ed8345a93dd\\target\\jwt-editor-1.1.0-jar-with-dependencies.jar",
                     "extension_type":"java",
-                    "loaded":true,
+                    "loaded":false,
                     "name":"JWT Editor",
                     "output":"ui"
                 }
@@ -141,7 +141,7 @@
             "automatic_project_backup":{
                 "delete_on_shutdown":true,
                 "enabled":true,
-                "in_scope_only":false,
+                "in_scope_only":true,
                 "interval":30,
                 "show_progress":false
             },
